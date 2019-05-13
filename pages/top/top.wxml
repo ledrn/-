@@ -1,0 +1,9 @@
+<!--pages/top/top.wxml-->
+<import src="top-classify/top-classify.wxml"/>
+<view>
+    <template is="top-classify" data="{{ ...newSong }}"/>
+    <template is="top-classify" data="{{ ...hotSong }}"/>
+    <template is="top-classify" data="{{ ...movieSong }}"/>
+    <template is="top-classify" data="{{ ...classicSong }}"/>
+    <template is="top-classify" data="{{ ...westernSong }}"/>
+</view>

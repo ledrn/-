@@ -1,0 +1,21 @@
+.top-classify{
+    display: flex;
+    margin: 40rpx 40rpx 0 40rpx;
+    padding-bottom: 40rpx;
+    border-bottom: 1px solid #eee;
+}
+.topImg{
+    width: 160rpx;
+    height:160rpx;
+}
+.top-count{
+    color:#fa6a49;
+    margin: 20rpx 30rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+    font-style: italic;
+}
+.top-text{
+    font-size: 30rpx;
+    color: #343434;
+}

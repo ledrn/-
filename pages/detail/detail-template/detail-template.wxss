@@ -1,0 +1,35 @@
+.songList{
+    display: flex;
+    align-items:center;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 15rpx 0;
+    position: relative;
+}
+.rise{
+    width: 20rpx;
+    height: 20rpx;
+    margin: 0  20rpx 0 100rpx;
+}
+.down{
+    width: 40rpx;
+    height: 40rpx;
+    position: absolute;
+    right: 0;
+    top:50%;
+    margin-top:-20rpx;
+}
+.listCount{
+    color:#fa6a49;
+    /* margin: 0 40rpx; */
+    position: absolute;
+    left: 40rpx;
+    top:35rpx;
+}
+.singer{
+    font-size: 26rpx;
+    color: #999;
+    padding-top: 5rpx;
+}
+.songTitle{
+    font-size: 30rpx;
+}

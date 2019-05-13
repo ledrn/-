@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/top/top",
+    "pages/detail/detail",
+    "pages/play/play"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我哭音乐",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#d0d0d0",
+    "selectedColor": "#343434",
+    "backgroundColor": "#f8f8f8",
+    "position": "top",
+    "borderStyle":"white",
+    "list": [
+        {
+            "pagePath": "pages/top/top",
+            "text": "音乐"
+        },
+        {
+            "pagePath": "pages/top/top",
+            "text": "分类"
+        },
+        {
+            "pagePath": "pages/top/top",
+            "text": "歌手"
+        },
+        {
+            "pagePath": "pages/top/top",
+            "text": "榜单"
+        },
+        {
+            "pagePath": "pages/top/top",
+            "text": "我的"
+        }
+    ]
+}
+}

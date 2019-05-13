@@ -1,0 +1,20 @@
+<!--pages/detail/detail.wxml-->
+<import src="./detail-template/detail-template.wxml"/>
+<view>
+    <image class="detailImg" src="{{musicPic}}"></image>
+    <view class="musicContent">
+        <view class="topContent">
+            <view>
+                <text class="downloadText">批量下载</text>
+                <image src='../../img/download.png' class="download"></image>
+            </view>
+            <view class="app">
+                <text>在APP中打开</text>
+            </view>
+        </view>
+        <view>
+            <template is="song-list" data="{{musicList:musicList,song_list:song_list}}"/>
+        </view>
+    </view>
+
+</view>

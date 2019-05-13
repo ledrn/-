@@ -1,0 +1,11 @@
+<template name="top-classify">
+    <view class="top-classify" bindtap='viewMoreHandler' data-type="{{type}}">
+        <image class="topImg" src='{{songImg}}'></image>
+        <view>
+            <view class="top-content" wx:for="{{songlist}}" wx:key>
+                <text class="top-count">{{index + 1}}</text>
+                <text class="top-text">{{ item }}</text>
+            </view>
+        </view>
+    </view>
+</template>

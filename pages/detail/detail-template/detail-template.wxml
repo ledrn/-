@@ -1,0 +1,13 @@
+<template name="song-list">
+  <block wx:for="{{musicList}}" wx:key>
+    <view class="songList" bindtap='playHandler' data-songid="{{item.songid}}">
+        <text class="listCount">{{index+1}}</text>
+        <image class="rise" src='../../../img/arrowUp.png'></image>
+        <view>
+            <view class="songTitle">{{item.song}}</view>
+            <view class='singer'>{{item.singer}}</view>
+        </view>
+        <image class="down" src='../../../img/download.png'></image>
+    </view>
+    </block>
+</template>
